@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SJ Game Zone</title>
   <style>
+    /* Base styles */
     body {
       font-family: Arial, sans-serif;
-      color: #fff;
-      text-align: center;
       margin: 0;
       padding: 0;
-      /* Gaming style gradient background */
+      color: #fff;
+      text-align: center;
       background: linear-gradient(135deg, #0d1117, #1a1f2b, #0d1117);
       background-size: 400% 400%;
       animation: gradientBG 15s ease infinite;
@@ -23,31 +23,29 @@
       100% {background-position: 0% 50%;}
     }
 
+    header {
+      padding: 20px;
+    }
+
     header img {
       height: 60px;
-      vertical-align: middle;
       border-radius: 12px;
-      margin-top: 20px;
+      vertical-align: middle;
+      margin-right: 10px;
     }
 
     h1 {
-      margin: 10px 0;
-    }
-
-    .btn {
       display: inline-block;
-      background: #00bfff;
-      color: #fff;
-      padding: 12px 25px;
-      margin: 15px 0;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
+      margin: 0;
+      vertical-align: middle;
     }
 
-    .btn:hover {
-      background: #009acd;
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 20px;
     }
 
     img.game-img {
@@ -57,46 +55,8 @@
       margin: 15px 0;
     }
 
-    footer {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #ccc;
-      padding: 15px;
-    }
-
-    p.note {
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #ccc;
-    }
-
-  </style>
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="SJ Game Zone Logo">
-    <h1>SJ Game Zone</h1>
-  </header>
-
-  <main>
-    <h2>Need for Speed SE 2</h2>
-    <img class="game-img" src="nfs.jpg" alt="Need for Speed SE 2">
-    <p>Classic racing fun—official setup and fixes.</p>
-    <a class="btn" href="https://shrinkme.click/1IjFz" target="_blank" rel="noopener noreferrer">Download Now</a>
-  </main>
-
-  <p class="note">
-    Some links may show a short ad before the official page.  
-    SJ Game Zone only shares legal, safe links.
-  </p>
-
-  <footer>
-    <p>
-      We know ads can be a bit annoying, but they are the only way we can keep SJ Game Zone running and bring you free games and content. Thank you for your understanding!
-    </p>
-    <p>
-      Some links may show a short ad before the official page. SJ Game Zone only shares legal, safe links.
-    </p>
-  </footer>
-</body>
-</html>
+    .btn {
+      display: inline-block;
+      background: #00bfff;
+      color: #fff;
+      padding: 12px 25px;
